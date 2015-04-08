@@ -1,0 +1,13 @@
+<env:Envelope xmlns:env='http://schemas.xmlsoap.org/soap/envelope/'>
+    <env:Header></env:Header>
+    <env:Body>
+        <ns2:getAccountResponse xmlns:ns2="http://ejb3.examples.itko.com/">
+            <return>
+                <balance>1595.00</balance>
+                <id>269571816734</id>
+                <name>MyChecking</name>
+                <type>CHECKING</type>
+            </return>
+        </ns2:getAccountResponse>
+    </env:Body>
+</env:Envelope>

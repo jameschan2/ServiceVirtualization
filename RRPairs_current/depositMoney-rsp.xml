@@ -1,0 +1,8 @@
+<env:Envelope xmlns:env='http://schemas.xmlsoap.org/soap/envelope/'>
+    <env:Header></env:Header>
+    <env:Body>
+        <ns2:depositMoneyResponse xmlns:ns2="http://ejb3.examples.itko.com/">
+            <return>Deposited $20.00 to account MyChecking ( 269571816734 ). New balance $1615.00, deposited funds available 2015-03-19T16:01:21.045-0700</return>
+        </ns2:depositMoneyResponse>
+    </env:Body>
+</env:Envelope>

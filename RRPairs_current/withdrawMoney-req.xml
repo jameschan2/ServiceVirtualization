@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <soapenv:Body>
+        <withdrawMoney xmlns="http://ejb3.examples.itko.com/">
+            <accountId xmlns="">269571816734</accountId>
+            <amount xmlns="">10.00</amount>
+            <desc xmlns="">ATM Withdrawal</desc>
+        </withdrawMoney>
+    </soapenv:Body>
+</soapenv:Envelope>

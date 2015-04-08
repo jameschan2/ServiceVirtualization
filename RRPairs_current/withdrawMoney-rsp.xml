@@ -1,0 +1,8 @@
+<env:Envelope xmlns:env='http://schemas.xmlsoap.org/soap/envelope/'>
+    <env:Header></env:Header>
+    <env:Body>
+        <ns2:withdrawMoneyResponse xmlns:ns2="http://ejb3.examples.itko.com/">
+            <return>80817838754</return>
+        </ns2:withdrawMoneyResponse>
+    </env:Body>
+</env:Envelope>

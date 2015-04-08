@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<soapenv:Body>
+		<transferMoney xmlns="http://ejb3.examples.itko.com/">
+			<fromAccountId xmlns="">2088767566</fromAccountId>
+			<toAccountId xmlns="">2088767849</toAccountId>
+			<amount xmlns="">20.00</amount>
+			<desc xmlns="">ATM TXFR (CHECKING --&gt; SAVINGS)</desc>
+		</transferMoney>
+	</soapenv:Body>
+</soapenv:Envelope>

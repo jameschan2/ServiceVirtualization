@@ -1,0 +1,12 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+   <soapenv:Body>
+      <ns1:getUserResponse soapenv:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" xmlns:ns1="http://webservices.examples.itko.com">
+         <getUserReturn href="#id0"/>
+      </ns1:getUserResponse>
+      <multiRef id="id0" soapenc:root="0" soapenv:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" xsi:type="ns2:UserState" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:ns2="urn:UserControlService">
+         <login xsi:type="soapenc:string">areck</login>
+         <pwd xsi:type="soapenc:string">AHDRRjD4AdIUOCwt4gG/g7SGR0c=</pwd>
+         <userSession xsi:type="ns2:UserSession" xsi:nil="true"/>
+      </multiRef>
+   </soapenv:Body>
+</soapenv:Envelope>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <soapenv:Body>
+        <deleteToken xmlns="http://ejb3.examples.itko.com/">
+            <token xmlns="">-1140f4d2:136e4f92586:-7fd7</token>
+        </deleteToken>
+    </soapenv:Body>
+</soapenv:Envelope>

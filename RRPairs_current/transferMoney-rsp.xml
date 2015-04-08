@@ -1,0 +1,9 @@
+
+<env:Envelope xmlns:env="http://schemas.xmlsoap.org/soap/envelope/">
+	<env:Header/>
+	<env:Body>
+		<ns2:transferMoneyResponse xmlns:ns2="http://ejb3.examples.itko.com/">
+			<return>2109407805</return>
+		</ns2:transferMoneyResponse>
+	</env:Body>
+</env:Envelope>
